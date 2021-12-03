@@ -1,0 +1,10 @@
+/*VERSIONE CON OR stampa 1 se x e y oppure y e z (inseriti in ordine) sono uguali*/
+/*VERSIONE CON AND stampa 1 se x e y e y e z (inseriti in ordine) sono uguali*/
+/* se vengono rimossi i commenti viene applicata la negazione all'espressione booleana*/
+(do
+    (read x)
+    (read y)
+    (read z)
+    (cond /*(!*/(|| (== x y) (== y z))/*)*/ (print 1) (else(print 0)))
+
+)

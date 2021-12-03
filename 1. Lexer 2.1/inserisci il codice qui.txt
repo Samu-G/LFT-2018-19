@@ -1,0 +1,6 @@
+0a
+a
+cond
+while
+ciaociao
+5 / 4 * 3
